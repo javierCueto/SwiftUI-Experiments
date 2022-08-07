@@ -12,40 +12,70 @@ struct LazyGridExample: View {
     @State private var rowSpacing: CGFloat = 20
     var body: some View {
         
-        VStack(spacing: 20) {
-            HeaderView("LazyHGrid",
-                       subtitle: "Spacing Example",
-                       desc: "This is just to give you an idea of controlling column and row spacing.", back: .yellow)
-            
-            let rows = [GridItem(.fixed(40), spacing: rowSpacing),
-                        GridItem(.fixed(40), spacing: rowSpacing),
-                        GridItem(.fixed(40))]
-            
-            LazyHGrid(rows: rows, spacing: columnSpacing) {
-                ForEach(1 ..< 11) { item in
-                    Color.green
-                        .frame(width: 40, height: 40)
-                }
-            }
-            
-            VStack {
-                Slider(value: $columnSpacing, in: 0...40, step: 5,
-                       minimumValueLabel: Text("0"),
-                       maximumValueLabel: Text("40")) { Text("Minimum Spacing")}
-                Text("Column Spacing: \(Int(columnSpacing))")
-                    .padding(.bottom)
-                
-                Slider(value: $rowSpacing, in: 0...40, step: 5,
-                       minimumValueLabel: Text("0"),
-                       maximumValueLabel: Text("40")) { Text("Minimum Spacing")}
-                Text("Row Spacing: \(Int(rowSpacing))")
-            }
-            .padding(.horizontal)
-        }
-        .padding()
-        .font(.title)
+
+
         
         ScrollView {
+            VStack(spacing: 20.0) {
+                HeaderView("LazyHGrid",
+                           subtitle: "Vertical Alignment",
+                           desc: "You can control the vertical alignment of each row through the GridItems.", back: .yellow)
+                
+                HStack(spacing: 20) {
+                    VStack(alignment: .trailing, spacing: 20.0) {
+                        Text("Bottom")
+                        Text("Top")
+                        Text("Center")
+                    }
+                    
+                    let rows = [GridItem(GridItem.Size.fixed(50), alignment: .bottom),
+                                GridItem(.fixed(50), alignment: .top),
+                                GridItem(.fixed(50), alignment: .center)]
+                    
+                    LazyHGrid(rows: rows) {
+                        ForEach(1 ..< 11) { item in
+                            Image(systemName: "\(item).circle")
+                        }
+                        Image(systemName: "arrow.right.circle")
+                    }
+                    .font(.largeTitle)
+                }
+            }
+            .font(.title)
+            
+            
+            VStack(spacing: 20) {
+                HeaderView("LazyHGrid",
+                           subtitle: "Spacing Example",
+                           desc: "This is just to give you an idea of controlling column and row spacing.", back: .yellow)
+                
+                let rows = [GridItem(.fixed(40), spacing: rowSpacing),
+                            GridItem(.fixed(40), spacing: rowSpacing),
+                            GridItem(.fixed(40))]
+                
+                LazyHGrid(rows: rows, spacing: columnSpacing) {
+                    ForEach(1 ..< 11) { item in
+                        Color.green
+                            .frame(width: 40, height: 40)
+                    }
+                }
+                
+                VStack {
+                    Slider(value: $columnSpacing, in: 0...40, step: 5,
+                           minimumValueLabel: Text("0"),
+                           maximumValueLabel: Text("40")) { Text("Minimum Spacing")}
+                    Text("Column Spacing: \(Int(columnSpacing))")
+                        .padding(.bottom)
+                    
+                    Slider(value: $rowSpacing, in: 0...40, step: 5,
+                           minimumValueLabel: Text("0"),
+                           maximumValueLabel: Text("40")) { Text("Minimum Spacing")}
+                    Text("Row Spacing: \(Int(rowSpacing))")
+                }
+                .padding(.horizontal)
+            }
+            .padding()
+            .font(.title)
             
             
             

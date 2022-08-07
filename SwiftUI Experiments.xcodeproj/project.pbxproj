@@ -15,6 +15,8 @@
 		3BB296FC289ED5BB00E8FE84 /* ZStackExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB296FB289ED5BB00E8FE84 /* ZStackExample.swift */; };
 		3BB296FE289F023100E8FE84 /* GeometryReaderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB296FD289F023100E8FE84 /* GeometryReaderExample.swift */; };
 		3BB29700289F45AF00E8FE84 /* LazyGridExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB296FF289F45AF00E8FE84 /* LazyGridExample.swift */; };
+		3BB29702289F51BA00E8FE84 /* LazyHGridPinned.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB29701289F51BA00E8FE84 /* LazyHGridPinned.swift */; };
+		3BB29704289F76E500E8FE84 /* ScrollViewReaderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB29703289F76E500E8FE84 /* ScrollViewReaderExample.swift */; };
 		3BF1B108289D6AF6004A783A /* SwiftUI_ExperimentsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF1B107289D6AF6004A783A /* SwiftUI_ExperimentsApp.swift */; };
 		3BF1B10A289D6AF6004A783A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF1B109289D6AF6004A783A /* ContentView.swift */; };
 		3BF1B10C289D6AF7004A783A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BF1B10B289D6AF7004A783A /* Assets.xcassets */; };
@@ -53,6 +55,8 @@
 		3BB296FB289ED5BB00E8FE84 /* ZStackExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackExample.swift; sourceTree = "<group>"; };
 		3BB296FD289F023100E8FE84 /* GeometryReaderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderExample.swift; sourceTree = "<group>"; };
 		3BB296FF289F45AF00E8FE84 /* LazyGridExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridExample.swift; sourceTree = "<group>"; };
+		3BB29701289F51BA00E8FE84 /* LazyHGridPinned.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHGridPinned.swift; sourceTree = "<group>"; };
+		3BB29703289F76E500E8FE84 /* ScrollViewReaderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderExample.swift; sourceTree = "<group>"; };
 		3BF1B104289D6AF6004A783A /* SwiftUI Experiments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Experiments.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BF1B107289D6AF6004A783A /* SwiftUI_ExperimentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ExperimentsApp.swift; sourceTree = "<group>"; };
 		3BF1B109289D6AF6004A783A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -180,6 +184,8 @@
 				3BB296F9289ED50500E8FE84 /* LazyHStack_HeadersFooters.swift */,
 				3BB296FB289ED5BB00E8FE84 /* ZStackExample.swift */,
 				3BB296FF289F45AF00E8FE84 /* LazyGridExample.swift */,
+				3BB29701289F51BA00E8FE84 /* LazyHGridPinned.swift */,
+				3BB29703289F76E500E8FE84 /* ScrollViewReaderExample.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -318,11 +324,13 @@
 				3BB296F0289EB0CD00E8FE84 /* LazyVSackWithScrolling.swift in Sources */,
 				3BB29700289F45AF00E8FE84 /* LazyGridExample.swift in Sources */,
 				3BF1B114289D6AF7004A783A /* SwiftUI_Experiments.xcdatamodeld in Sources */,
+				3BB29702289F51BA00E8FE84 /* LazyHGridPinned.swift in Sources */,
 				3BB296FC289ED5BB00E8FE84 /* ZStackExample.swift in Sources */,
 				3BB296FA289ED50500E8FE84 /* LazyHStack_HeadersFooters.swift in Sources */,
 				3BB296FE289F023100E8FE84 /* GeometryReaderExample.swift in Sources */,
 				3BF1B138289D6E27004A783A /* Features1.swift in Sources */,
 				3BF1B111289D6AF7004A783A /* Persistence.swift in Sources */,
+				3BB29704289F76E500E8FE84 /* ScrollViewReaderExample.swift in Sources */,
 				3BF1B10A289D6AF6004A783A /* ContentView.swift in Sources */,
 				3BB296F8289ED46200E8FE84 /* LazyHStack_WithScrolling.swift in Sources */,
 				3BF1B108289D6AF6004A783A /* SwiftUI_ExperimentsApp.swift in Sources */,

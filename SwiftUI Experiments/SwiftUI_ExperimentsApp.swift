@@ -13,7 +13,9 @@ struct SwiftUI_ExperimentsApp: App {
 
     var body: some Scene {
         WindowGroup {
-            LazyGridExample()
+            ScrollViewReaderExample()
+//            LazyHGridPinned()
+//            LazyGridExample()
 //            GeometryReaderExample()
 //            ZStackExample()
 //            LazyHStack_HeadersFooters()
