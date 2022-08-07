@@ -9,6 +9,33 @@ import SwiftUI
 
 struct ScrollViewReaderExample: View {
     var body: some View {
+
+            VStack(spacing: 20.0) {
+                HeaderView("ScrollViewReader",
+                           subtitle: "Animation",
+                           desc: "You can animate the scrolling by putting withAnimation around the scrollTo function.")
+                ScrollViewReader { scrollViewProxy in
+                    Button("Animate Scrolling To Bottom") {
+                        withAnimation { scrollViewProxy.scrollTo(50) }
+                    }
+                    ScrollView(showsIndicators: true) {
+                        ForEach(1..<51) { index in
+                            getImage(for: index)
+                                .font(.largeTitle)
+                                .frame(height: 70)
+                                .id(index)
+                        }
+                    }
+                    Button("Animate Scrolling To Top") {
+                        withAnimation { scrollViewProxy.scrollTo(1) }
+                    }
+                }
+            }
+            .font(.title)
+
+    
+        
+        
         VStack(spacing: 20.0) {
             HeaderView("ScrollViewReader",
                        subtitle: "Anchor",
