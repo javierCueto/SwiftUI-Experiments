@@ -13,8 +13,15 @@ struct SwiftUI_ExperimentsApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            LazyGridExample()
+//            GeometryReaderExample()
+//            ZStackExample()
+//            LazyHStack_HeadersFooters()
+//            LazyHStack_WithScrolling()
+//            LazyVStack_WithScrolling()
+//           Features1()
+//            ContentView()
+//                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }

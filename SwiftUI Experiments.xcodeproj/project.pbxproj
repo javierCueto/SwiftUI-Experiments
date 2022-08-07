@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BB296F0289EB0CD00E8FE84 /* LazyVSackWithScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB296EF289EB0CC00E8FE84 /* LazyVSackWithScrolling.swift */; };
+		3BB296F2289EB15800E8FE84 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB296F1289EB15800E8FE84 /* Data.swift */; };
+		3BB296F6289EB1D900E8FE84 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB296F5289EB1D900E8FE84 /* HeaderView.swift */; };
+		3BB296F8289ED46200E8FE84 /* LazyHStack_WithScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB296F7289ED46200E8FE84 /* LazyHStack_WithScrolling.swift */; };
+		3BB296FA289ED50500E8FE84 /* LazyHStack_HeadersFooters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB296F9289ED50500E8FE84 /* LazyHStack_HeadersFooters.swift */; };
+		3BB296FC289ED5BB00E8FE84 /* ZStackExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB296FB289ED5BB00E8FE84 /* ZStackExample.swift */; };
+		3BB296FE289F023100E8FE84 /* GeometryReaderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB296FD289F023100E8FE84 /* GeometryReaderExample.swift */; };
+		3BB29700289F45AF00E8FE84 /* LazyGridExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB296FF289F45AF00E8FE84 /* LazyGridExample.swift */; };
 		3BF1B108289D6AF6004A783A /* SwiftUI_ExperimentsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF1B107289D6AF6004A783A /* SwiftUI_ExperimentsApp.swift */; };
 		3BF1B10A289D6AF6004A783A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF1B109289D6AF6004A783A /* ContentView.swift */; };
 		3BF1B10C289D6AF7004A783A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BF1B10B289D6AF7004A783A /* Assets.xcassets */; };
@@ -16,6 +24,7 @@
 		3BF1B11E289D6AF8004A783A /* SwiftUI_ExperimentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF1B11D289D6AF8004A783A /* SwiftUI_ExperimentsTests.swift */; };
 		3BF1B128289D6AF8004A783A /* SwiftUI_ExperimentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF1B127289D6AF8004A783A /* SwiftUI_ExperimentsUITests.swift */; };
 		3BF1B12A289D6AF8004A783A /* SwiftUI_ExperimentsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF1B129289D6AF8004A783A /* SwiftUI_ExperimentsUITestsLaunchTests.swift */; };
+		3BF1B138289D6E27004A783A /* Features1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF1B137289D6E27004A783A /* Features1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3BB296EF289EB0CC00E8FE84 /* LazyVSackWithScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVSackWithScrolling.swift; sourceTree = "<group>"; };
+		3BB296F1289EB15800E8FE84 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		3BB296F5289EB1D900E8FE84 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		3BB296F7289ED46200E8FE84 /* LazyHStack_WithScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHStack_WithScrolling.swift; sourceTree = "<group>"; };
+		3BB296F9289ED50500E8FE84 /* LazyHStack_HeadersFooters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHStack_HeadersFooters.swift; sourceTree = "<group>"; };
+		3BB296FB289ED5BB00E8FE84 /* ZStackExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackExample.swift; sourceTree = "<group>"; };
+		3BB296FD289F023100E8FE84 /* GeometryReaderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderExample.swift; sourceTree = "<group>"; };
+		3BB296FF289F45AF00E8FE84 /* LazyGridExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridExample.swift; sourceTree = "<group>"; };
 		3BF1B104289D6AF6004A783A /* SwiftUI Experiments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Experiments.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BF1B107289D6AF6004A783A /* SwiftUI_ExperimentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ExperimentsApp.swift; sourceTree = "<group>"; };
 		3BF1B109289D6AF6004A783A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +65,7 @@
 		3BF1B123289D6AF8004A783A /* SwiftUI ExperimentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI ExperimentsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BF1B127289D6AF8004A783A /* SwiftUI_ExperimentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ExperimentsUITests.swift; sourceTree = "<group>"; };
 		3BF1B129289D6AF8004A783A /* SwiftUI_ExperimentsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ExperimentsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3BF1B137289D6E27004A783A /* Features1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +93,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BB296F3289EB16100E8FE84 /* DataMock */ = {
+			isa = PBXGroup;
+			children = (
+				3BB296F1289EB15800E8FE84 /* Data.swift */,
+			);
+			path = DataMock;
+			sourceTree = "<group>";
+		};
+		3BB296F4289EB1C800E8FE84 /* Suppport */ = {
+			isa = PBXGroup;
+			children = (
+				3BB296F5289EB1D900E8FE84 /* HeaderView.swift */,
+			);
+			path = Suppport;
+			sourceTree = "<group>";
+		};
 		3BF1B0FB289D6AF6004A783A = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +132,8 @@
 		3BF1B106289D6AF6004A783A /* SwiftUI Experiments */ = {
 			isa = PBXGroup;
 			children = (
+				3BB296F3289EB16100E8FE84 /* DataMock */,
+				3BF1B136289D6DA9004A783A /* Views */,
 				3BF1B107289D6AF6004A783A /* SwiftUI_ExperimentsApp.swift */,
 				3BF1B109289D6AF6004A783A /* ContentView.swift */,
 				3BF1B10B289D6AF7004A783A /* Assets.xcassets */,
@@ -131,6 +167,21 @@
 				3BF1B129289D6AF8004A783A /* SwiftUI_ExperimentsUITestsLaunchTests.swift */,
 			);
 			path = "SwiftUI ExperimentsUITests";
+			sourceTree = "<group>";
+		};
+		3BF1B136289D6DA9004A783A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3BB296FD289F023100E8FE84 /* GeometryReaderExample.swift */,
+				3BB296F4289EB1C800E8FE84 /* Suppport */,
+				3BF1B137289D6E27004A783A /* Features1.swift */,
+				3BB296EF289EB0CC00E8FE84 /* LazyVSackWithScrolling.swift */,
+				3BB296F7289ED46200E8FE84 /* LazyHStack_WithScrolling.swift */,
+				3BB296F9289ED50500E8FE84 /* LazyHStack_HeadersFooters.swift */,
+				3BB296FB289ED5BB00E8FE84 /* ZStackExample.swift */,
+				3BB296FF289F45AF00E8FE84 /* LazyGridExample.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,10 +314,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BB296F2289EB15800E8FE84 /* Data.swift in Sources */,
+				3BB296F0289EB0CD00E8FE84 /* LazyVSackWithScrolling.swift in Sources */,
+				3BB29700289F45AF00E8FE84 /* LazyGridExample.swift in Sources */,
 				3BF1B114289D6AF7004A783A /* SwiftUI_Experiments.xcdatamodeld in Sources */,
+				3BB296FC289ED5BB00E8FE84 /* ZStackExample.swift in Sources */,
+				3BB296FA289ED50500E8FE84 /* LazyHStack_HeadersFooters.swift in Sources */,
+				3BB296FE289F023100E8FE84 /* GeometryReaderExample.swift in Sources */,
+				3BF1B138289D6E27004A783A /* Features1.swift in Sources */,
 				3BF1B111289D6AF7004A783A /* Persistence.swift in Sources */,
 				3BF1B10A289D6AF6004A783A /* ContentView.swift in Sources */,
+				3BB296F8289ED46200E8FE84 /* LazyHStack_WithScrolling.swift in Sources */,
 				3BF1B108289D6AF6004A783A /* SwiftUI_ExperimentsApp.swift in Sources */,
+				3BB296F6289EB1D900E8FE84 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +413,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -407,7 +467,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -433,6 +493,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,6 +523,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
